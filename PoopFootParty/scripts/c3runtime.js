@@ -1420,11 +1420,6 @@ self.C3_ExpressionFuncs = [
 			return () => f0(f1(), "ok");
 		},
 		() => -1,
-		p => {
-			const f0 = p._GetNode(0).GetBoundMethod();
-			const f1 = p._GetNode(1).GetBoundMethod();
-			return () => ((f0(0) + (f1(0) / 2)) + 110);
-		},
 		() => 19.5,
 		p => {
 			const f0 = p._GetNode(0).GetBoundMethod();
@@ -1438,8 +1433,7 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 544,
 		() => 28.5,
-		() => "https://poopfootparty.netlify.app/.netlify/functions/submit",
-		() => "https://poopfoot.com/leaderboard"
+		() => "https://lucent-boba-a4f4de.netlify.app/leaderboard"
 ];
 
 
