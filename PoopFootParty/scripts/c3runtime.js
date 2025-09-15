@@ -1408,7 +1408,7 @@ self.C3_ExpressionFuncs = [
 		() => "Content-Type",
 		() => "application/json",
 		() => "submitscore",
-		() => "https://poopfootparty.netlify.app/.netlify/functions/submit",
+		() => "https://lucent-boba-a4f4de.netlify.app/.netlify/functions/submit",
 		p => {
 			const v0 = p._GetNode(0).GetVar();
 			return () => v0.GetValue();
@@ -1438,6 +1438,7 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 544,
 		() => 28.5,
+		() => "https://poopfootparty.netlify.app/.netlify/functions/submit",
 		() => "https://poopfoot.com/leaderboard"
 ];
 

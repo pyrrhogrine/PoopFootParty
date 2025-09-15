@@ -1,0 +1,11 @@
+[build]
+  # Folder with your Construct export (contains index.html)
+  publish = "PoopFootParty"
+
+  # Folder with your serverless functions
+  functions = "netlify/functions"
+
+[functions]
+  # Let Netlify bundle with esbuild, includes external deps
+  node_bundler = "esbuild"
+  external_node_modules = ["@supabase/supabase-js"]
