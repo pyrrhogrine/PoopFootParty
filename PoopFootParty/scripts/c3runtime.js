@@ -1433,7 +1433,7 @@ self.C3_ExpressionFuncs = [
 		},
 		() => 544,
 		() => 28.5,
-		() => "https://poopfootparty.netlify.app/leaderboard"
+		() => "https://poopfootparty.com/leaderboard"
 ];
 
 
