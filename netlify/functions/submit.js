@@ -7,14 +7,14 @@ const supabase = createClient(
 
 // Edit this list to include your production/custom domains as needed
 const ALLOW_ORIGINS = new Set([
-  'https://lucent-boba-a4f4de.netlify.app/'
+  'https://poopfootparty.com/'
 ]);
 
 exports.handler = async (event) => {
   const requestOrigin = event.headers?.origin || '';
   const origin = ALLOW_ORIGINS.has(requestOrigin)
     ? requestOrigin
-    : 'https://lucent-boba-a4f4de.netlify.app/';
+    : 'https://poopfootparty.com/';
 
   const cors = {
     'Access-Control-Allow-Origin': origin,
